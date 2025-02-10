@@ -66,7 +66,7 @@ function SideBar() {
       </ul>
 
       <div className="absolute bottom-10 w-[80%]">
-        <Progress value={(userCourseList?.length / 5) * 100} />
+        <Progress value={(userCourseList?.length / 50) * 100} />
 
         <h2 className="text-sm my-2">
           {userCourseList?.length} Out of 50 Course Created

@@ -18,7 +18,7 @@ function CourseCard({ course, refreshData, displayUser = false }) {
       // console.log("Course : " + course?.courseId);
 
       // Delete Banner Image
-      if (course?.courseBanner != "/placeholder.png") {
+      if (course?.courseBanner != "./placeholder.jpg") {
         const filePath = course?.courseBanner
           .replace(
             "https://firebasestorage.googleapis.com/v0/b/explorer-1844f.firebasestorage.app/o/",
@@ -77,7 +77,7 @@ function CourseCard({ course, refreshData, displayUser = false }) {
         }
       >
         <Image
-          src={course?.courseBanner}
+          src="/placeholder.jpg"
           alt="course"
           width={300}
           height={200}
