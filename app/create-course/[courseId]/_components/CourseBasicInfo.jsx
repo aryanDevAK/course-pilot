@@ -103,13 +103,13 @@ function CourseBasicInfo({ course, refreshData, edit = true }) {
           )}
         </div>
         {/* Image */}
-        <div>
+        {/* <div>
           <label htmlFor="upload-image">
             <Image
               src={
                 selectedFile
                   ? selectedFile
-                  : course?.courseBanner || "/placeholder.png"
+                  : course?.courseBanner || "/placeholder.jpg"
               }
               quality={100}
               priority={true}
@@ -130,7 +130,7 @@ function CourseBasicInfo({ course, refreshData, edit = true }) {
               onChange={onFileChanged}
             />
           )}
-        </div>
+        </div> */}
       </div>
     </div>
   );

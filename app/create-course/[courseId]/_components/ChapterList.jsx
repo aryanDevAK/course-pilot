@@ -1,6 +1,7 @@
 import React from "react";
 import { HiOutlineClock, HiOutlineCheckCircle } from "react-icons/hi2";
 import EditChapters from "./EditChapters";
+
 function ChapterList({ course, refreshData, edit = true }) {
   return (
     <div className="mt-3">
