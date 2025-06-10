@@ -57,13 +57,6 @@ AI Course Generator makes it easy to create your own coding courses, personalize
 
 ---
 
-## Deployment
-
-This project is deployed using [Vercel](https://vercel.com).  
-To deploy your version, push changes to your GitHub repository and link it with Vercel for automatic deployment.
-
----
-
 ## Contributing
 
 Contributions are welcome! Feel free to:
@@ -78,9 +71,3 @@ Contributions are welcome! Feel free to:
 
 - **GitHub Repository**: [AI Course Pilot](https://github.com/aryanDevAK/course-pilot.git)
 - **Live Application**: [AI Course Pilot](https://github.com/aryanDevAK/course-pilot.git)
-
----
-
-`Thank You :)`
-
----
