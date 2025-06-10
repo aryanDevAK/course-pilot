@@ -1,7 +1,6 @@
 # AI Course Pilot (AI in Education)
 
-[![Hosted on Vercel](https://vercel.com/button)](https://ai-course-pilot.vercel.app/)  
-[Visit the Live App](https://ai-course-pilot.vercel.app/)
+[Visit Live Application](https://ai-course-pilot.vercel.app/)
 
 ## Overview
 
