@@ -103,7 +103,7 @@ function CourseBasicInfo({ course, refreshData, edit = true }) {
           )}
         </div>
         {/* Image */}
-        {/* <div>
+        {/* `<div>
           <label htmlFor="upload-image">
             <Image
               src={
@@ -130,7 +130,7 @@ function CourseBasicInfo({ course, refreshData, edit = true }) {
               onChange={onFileChanged}
             />
           )}
-        </div> */}
+        </div>` */}
       </div>
     </div>
   );

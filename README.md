@@ -1,33 +1,21 @@
-# AI Course Generator
+# AI Course Pilot (AI in Education)
 
-[![Hosted on Vercel](https://vercel.com/button)](https://seedofcode-ai-course-generator.vercel.app/)  
-[Visit the Live App](https://seedofcode-ai-course-generator.vercel.app/)
+[![Hosted on Vercel](https://vercel.com/button)](https://ai-course-pilot.vercel.app/)  
+[Visit the Live App](https://ai-course-pilot.vercel.app/)
 
 ## Overview
 
-AI Course Generator is a web application built with **Next.js** to create and manage personalized coding courses. This project leverages the power of **Gemini** for generating course content and integrates **YouTube videos** using the YouTube Data API v3, tailoring course materials to users' preferences and learning needs.
+AI Course Generator makes it easy to create your own coding courses, personalized to your interests and skill level. Just tell the app what you want to learn, and it uses AI (powered by Gemini) to generate course content for you. It also finds and adds relevant YouTube videos, so you get a richer, more engaging learning experience—all in one place.
 
 ---
 
 ## Features
 
-- **AI-Generated Content**: Automatically generate coding course materials using Gemini.
-- **Video Integration**: Seamless YouTube video integration via YouTube Data API v3 to enrich learning.
-- **User Management**: Secure user authentication powered by [Clerk](https://clerk.dev).
-- **Optimized Performance**: Built with modern web technologies like Next.js and Tailwind CSS for styling.
-- **Responsive Design**: Fully responsive and mobile-friendly.
-
----
-
-## Tech Stack
-
-- **Frontend**: Next.js 15 with App Router and Tailwind CSS for modern styling.
-- **Backend**: API routes with Gemini for AI-powered course content generation.
-- **Video Integration**: YouTube Data API v3 for embedding relevant videos into courses.
-- **Styling**: Tailwind CSS for responsive design.
-- **Authentication**: Clerk integration for user management.
-- **Deployment**: Vercel for seamless hosting and scaling.
-- **Database**: PostgreSQL with Drizzle ORM.
+- **AI-Generated Courses**: Instantly create personalized coding courses with the help of Gemini AI—just tell the app what you want to learn.
+- **Integrated YouTube Videos**: Get relevant YouTube videos automatically added to your courses for a richer, more engaging experience.
+- **Easy Sign Up & Login**: Manage your account securely with [Clerk](https://clerk.dev) authentication.
+- **Fast & Modern UI**: Enjoy a smooth, responsive interface built with Next.js and styled using Tailwind CSS.
+- **Mobile Friendly**: Access your courses on any device, thanks to a fully responsive design.
 
 ---
 
@@ -36,7 +24,7 @@ AI Course Generator is a web application built with **Next.js** to create and ma
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Explore13/ai-course-generator.git
+   git clone https://github.com/aryanDevAK/course-pilot.git
    cd ai-course-generator
    ```
 
@@ -47,6 +35,7 @@ AI Course Generator is a web application built with **Next.js** to create and ma
    ```
 
 3. Set up environment variables:
+
    - Add your **Gemini API key** and **YouTube Data API v3 key** in an `.env` file:
 
      ```bash
@@ -87,8 +76,8 @@ Contributions are welcome! Feel free to:
 
 ## Links
 
-- **GitHub Repository**: [AI Course Generator](https://github.com/Explore13/ai-course-generator)  
-- **Live Application**: [SeedOfCode AI Course Generator](https://seedofcode-ai-course-generator.vercel.app/)  
+- **GitHub Repository**: [AI Course Pilot](https://github.com/aryanDevAK/course-pilot.git)
+- **Live Application**: [AI Course Pilot](https://github.com/aryanDevAK/course-pilot.git)
 
 ---
 
